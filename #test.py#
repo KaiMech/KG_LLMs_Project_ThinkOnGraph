@@ -2,7 +2,7 @@ print("starting")
 from transformers import AutoTokenizer, AutoModelForCausalLM
 import torch, os
 
-model_id = "meta-llama/Llama-3.3-70B-Instruct"
+model_id = ""
 
 tokenizer = AutoTokenizer.from_pretrained(model_id)
 model = AutoModelForCausalLM.from_pretrained(
